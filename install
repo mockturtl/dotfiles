@@ -1,0 +1,48 @@
+#!/bin/sh
+
+DOTFILES="ackrc bash_aliases bashrc gitconfig inputrc profile vimrc"
+DOTDIRS="vim"
+
+do_install() {
+  cat << EOF
+    Copying dotfiles to ${HOME}...
+EOF
+
+  for DOTFILE in ${DOTFILES}; do
+    TARGET="${HOME}/.${DOTFILE}"
+    cp -f ${DOTFILE} ${TARGET}
+  done
+
+  for DOTDIR in ${DOTDIRS}; do
+    TARGET="${HOME}/.${DOTDIR}"
+    cp -rf ${DOTDIR}/* ${TARGET}
+  done
+
+  cat << EOF
+    Done.  You may wish to source ~/.profile, or log in again.
+EOF
+}
+
+do_update() {
+  git submodule update --init
+}
+
+do_pullall() {
+  git submodule foreach 'git pull origin master'
+}
+
+case `basename $0` in
+  "install")
+    do_install
+    ;;
+  "update")
+    do_update
+    ;;
+  "pull-all")
+    do_pullall
+    ;;
+  *)
+    echo "Usage: {install|update|pull-all}"
+    exit 1
+    ;;
+esac

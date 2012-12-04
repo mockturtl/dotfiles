@@ -1,0 +1,24 @@
+[include]
+	path = .github/.gitconfig
+[alias]
+	co = checkout
+	st = status
+	lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+	ci = commit
+	br = branch --verbose
+	brr = branch --verbose --remotes
+	bra = branch --verbose --all
+	ri = rebase --interactive
+	av = add --verbose
+	ap = add --patch
+	di = diff
+	ds = diff --staged
+	fv = fetch --verbose
+	cp = cherry-pick
+[color]
+	status = auto
+	branch = auto
+[rebase]
+	autosquash = true
+[core]
+	autocrlf = input

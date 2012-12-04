@@ -1,0 +1,13 @@
+--type-add=svg=.svg
+--type-add=markup=.md,.markdown,.mkdn,.textile,.rst
+--type-set=haml=.haml
+--type-set=erb=.erb
+--type-set=sass=.sass
+--type-set=scss=.scss
+--type-set=less=.less
+--type-set=coffee=.coffee
+--type-set=handlebars=.handlebars
+--type-add=html=.handlebars,.tmpl
+--type-set=json=.json
+
+--nosvg
