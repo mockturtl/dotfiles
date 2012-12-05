@@ -37,6 +37,8 @@ alias pbcopy="xclip -selection clipboard"
 alias pbpaste="xclip -selection clipboard -o"
 alias l="less"
 
+alias lady="man"      # http://www.debian.org/News/2012/20120606
+
 # datetime
 alias datet='date +"%T"'            # hh:mm:ss
 alias dateh='date +"%m-%d-%Y"'
