@@ -15,6 +15,7 @@ EOF
 
   for DOTDIR in ${DOTDIRS}; do
     TARGET="${HOME}/.${DOTDIR}"
+    mkdir -p ${TARGET}
     cp -rf ${DOTDIR}/* ${TARGET}
   done
 
