@@ -17,3 +17,6 @@ for f in $(command ls ~/.node-completion); do
   test -f "$f" && . "$f"
 done
 # }}}
+
+# vim ctrl+S
+stty -ixon
