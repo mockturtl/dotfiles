@@ -20,6 +20,8 @@ alias audit="sudo dpkg --audit"
 
 # filesystem
 alias ..="cd .."
+alias ...="..; .."
+alias ....="...; .."
 alias diff="colordiff"
 alias grep='grep -n --colour=auto'
 alias ls="ls -hF --color=auto"
