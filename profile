@@ -52,6 +52,9 @@ DART_HOME="/opt/dart/dart-sdk/bin"
 # go
 export GOPATH="$HOME/Projects/go"
 
+# js
+SENCHA_HOME="/opt/Sencha/Cmd/3.0.0.250"
+
 # rb
 export BUNDLER_EDITOR=vim
 RBENV="$HOME/.rbenv/bin"
@@ -62,6 +65,6 @@ export LESSOPEN="| /usr/share/source-highlight/src-hilite-lesspipe.sh %s"
 export LESS=' -R '
 
 # path
-export PATH=$DART_HOME:$ANDROID_TOOLS:$ANDROID_PLATFORM_TOOLS:$RBENV:$HEROKU:$JAVA_HOME:$M2:$FLEX_PATH:$GOPATH/bin:$PATH
+export PATH=$SENCHA_HOME:$DART_HOME:$ANDROID_TOOLS:$ANDROID_PLATFORM_TOOLS:$RBENV:$HEROKU:$JAVA_HOME:$M2:$FLEX_PATH:$GOPATH/bin:$PATH
 
 eval "$(rbenv init -)"
