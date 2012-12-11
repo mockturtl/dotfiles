@@ -39,6 +39,7 @@ alias ds="du -s"
 alias pbcopy="xclip -selection clipboard"
 alias pbpaste="xclip -selection clipboard -o"
 alias l="less"
+alias c="clear"
 
 alias lady="man"      # http://www.debian.org/News/2012/20120606
 
