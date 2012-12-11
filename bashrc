@@ -20,3 +20,6 @@ done
 
 # vim ctrl+S
 stty -ixon
+
+# comment ~/.rbenv/libexec/rbenv-init 73:echo 'export PATH="'${RBENV_ROOT}'/shims:${PATH}"'
+eval "$(rbenv init -)"

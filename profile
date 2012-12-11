@@ -40,21 +40,23 @@ export FLEX_PATH="$FLEX_HOME/bin"
 
 # android
 ANDROID_HOME="$HOME/android-sdk-linux"
-ANDROID_TOOLS="$ANDROID_HOME/tools"
-ANDROID_PLATFORM_TOOLS="$ANDROID_HOME/platform-tools"
+ANDROID="$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools"
 
 # dart
-DART_HOME="/opt/dart/dart-sdk/bin"
+DART_HOME="/opt/dart/dart-sdk"
+DART="$DART_HOME/bin"
 
 # go
 export GOPATH="$HOME/Projects/go"
+GO="$GOPATH/bin"
 
 # js
-SENCHA_HOME="/opt/Sencha/Cmd/3.0.0.250"
+SENCHA="/opt/Sencha/Cmd/3.0.0.250"
 
 # rb
 export BUNDLER_EDITOR=vim
-RBENV="$HOME/.rbenv/bin"
+RBENV_ROOT="$HOME/.rbenv"
+RBENV="$RBENV_ROOT/shims:$RBENV_ROOT/bin"
 HEROKU="/usr/local/heroku/bin"
 
 # sh
@@ -62,6 +64,4 @@ export LESSOPEN="| /usr/share/source-highlight/src-hilite-lesspipe.sh %s"
 export LESS=' -R '
 
 # path
-export PATH=$SENCHA_HOME:$DART_HOME:$ANDROID_TOOLS:$ANDROID_PLATFORM_TOOLS:$RBENV:$HEROKU:$JAVA_HOME:$M2:$FLEX_PATH:$GOPATH/bin:$PATH
-
-eval "$(rbenv init -)"
+export PATH=$SENCHA:$DART:$ANDROID:$RBENV:$HEROKU:$JAVA_HOME:$M2:$FLEX_PATH:$GO:$PATH
