@@ -53,6 +53,9 @@ alias dates='date +"%s"'            # epoch
 # java
 alias ivy="java -jar $IVY"
 
+# rb
+alias rbenv-sh='eval "$(rbenv init -)"'
+
 # net
 alias ports='netstat -tulanp' #  --all --numeric --programs --inet --inet5'
 alias ping='ping -c 5'
