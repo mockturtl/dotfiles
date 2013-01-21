@@ -2,6 +2,7 @@
 
 DOTFILES="ackrc bash_aliases bashrc gitconfig inputrc profile vimrc"
 DOTDIRS="vim"
+FILES="git-completion.bash git-prompt.sh"
 
 do_install() {
   cat << EOF
@@ -17,6 +18,11 @@ EOF
     TARGET="${HOME}/.${DOTDIR}"
     mkdir -p ${TARGET}
     cp -rf ${DOTDIR}/* ${TARGET}
+  done
+  
+  for FILE in ${FILES}; do
+    TARGET="${HOME}/${FILE}"
+    cp -f ${FILE} ${TARGET}
   done
 
   cat << EOF

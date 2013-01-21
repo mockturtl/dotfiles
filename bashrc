@@ -3,6 +3,9 @@
 [[ -s "$HOME/git-completion.bash" ]] && \
 . "$HOME/git-completion.bash" # git tab completion
 
+[[ -s "$HOME/git-prompt.sh" ]] && \
+. "$HOME/git-prompt.sh" # git prompt
+
 [[ -s "$HOME/.ivy2/.repo-config" ]] && \
 . "$HOME/.ivy2/.repo-config" # Apache Ivy repository cache
 
