@@ -51,6 +51,9 @@ DART="$DART_HOME/bin"
 export GOPATH="$HOME/Projects/go"
 GO="$GOPATH/bin"
 
+# py
+GAE="/opt/google_appengine"
+
 # js
 SENCHA="/opt/Sencha/Cmd/3.0.0.250"
 
@@ -65,4 +68,4 @@ export LESSOPEN="| /usr/share/source-highlight/src-hilite-lesspipe.sh %s"
 export LESS=' -R '
 
 # path
-export PATH=$SENCHA:$DART:$ANDROID:$RBENV:$HEROKU:$JAVA_HOME:$M2:$FLEX_PATH:$GO:$PATH
+export PATH=$GAE:$SENCHA:$DART:$ANDROID:$RBENV:$HEROKU:$JAVA_HOME:$M2:$FLEX_PATH:$GO:$PATH
