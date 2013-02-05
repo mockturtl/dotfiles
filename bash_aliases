@@ -22,7 +22,7 @@ alias audit="sudo dpkg --audit"
 alias ..="cd .."
 alias ...="..; .."
 alias ....="...; .."
-alias diff="colordiff"
+alias diff="colordiff -u"
 alias grep='grep -n --colour=auto'
 alias ls="ls -hF --color=auto"
 alias lr="ls -R"      # recursive

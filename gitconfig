@@ -16,8 +16,7 @@
 	fv = fetch --verbose
 	cp = cherry-pick
 [color]
-	status = auto
-	branch = auto
+	ui = true
 [rebase]
 	autosquash = true
 [core]
