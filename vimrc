@@ -30,6 +30,8 @@ imap jj <Esc>
 
 " toggle line numbers
 nmap <C-N><C-N> :set invnumber<CR>
+nnoremap <F3> :NumbersToggle<CR>
+nnoremap <F4> :NumbersOnOff<CR>
 
 " toggle paste with indents
 nnoremap <leader>p :set invpaste paste?<CR>
