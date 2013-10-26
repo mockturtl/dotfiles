@@ -15,6 +15,7 @@
 	ds = diff --staged
 	fv = fetch --verbose
 	cp = cherry-pick
+	sh = show --abbrev-commit
 [color]
 	ui = true
 [rebase]

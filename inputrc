@@ -1,1 +1,12 @@
 set editing-mode vi
+
+# up, down arrows
+"\e[A": history-search-backward
+"\e[B": history-search-forward
+
+# pgup, pgdown
+#"\e[5~": history-search-backward
+#"\e[6~": history-search-forward
+
+set completion-ignore-case on
+set show-all-if-ambiguous on

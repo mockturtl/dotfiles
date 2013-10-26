@@ -4,6 +4,8 @@ alias clean="sudo apt-get clean && sudo apt-get autoremove"
 alias safe-upgrade="sudo aptitude safe-upgrade"
 alias full-upgrade="sudo aptitude full-upgrade"
 alias held="aptitude search ~ahold"
+alias hold="sudo aptitude hold"
+alias unhold="sudo aptitude unhold"
 alias show="aptitude show"
 function showp { show "$1" | less; }
 alias showsrc="apt-cache showsrc"
@@ -16,6 +18,7 @@ alias changelog="aptitude changelog"
 alias experimental="aptitude search ~S~i~Aexperimental"
 alias install="sudo aptitude install"
 alias remove="sudo aptitude remove"
+alias purge="sudo aptitude purge"
 alias audit="sudo dpkg --audit"
 
 # filesystem
@@ -40,6 +43,7 @@ alias pbcopy="xclip -selection clipboard"
 alias pbpaste="xclip -selection clipboard -o"
 alias l="less"
 alias c="clear"
+alias h="history | grep" # use with `!cmdno`
 
 alias lady="man"      # http://www.debian.org/News/2012/20120606
 
