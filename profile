@@ -55,7 +55,9 @@ GO="$GOPATH/bin"
 GAE="/opt/google_appengine"
 
 # js
-#SENCHA="/opt/Sencha/Cmd/3.0.0.250"
+if [ -d "$HOME/node_modules" ] ; then
+  NPM="$HOME/node_modules/.bin"
+fi
 
 # rb
 export BUNDLER_EDITOR=vim
@@ -68,4 +70,4 @@ export LESSOPEN="| /usr/share/source-highlight/src-hilite-lesspipe.sh %s"
 export LESS=' -R '
 
 # path
-export PATH=$GAE:$DART:$ANDROID:$RBENV:$HEROKU:$JAVA_HOME:$M2:$FLEX_PATH:$GO:$PATH
+export PATH=$NPM:$GAE:$DART:$ANDROID:$RBENV:$HEROKU:$JAVA_HOME:$M2:$FLEX_PATH:$GO:$PATH
