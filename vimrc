@@ -46,3 +46,7 @@ autocmd FileType ruby imap <buffer> <F4> <Plug>(xmpfilter-mark)
 autocmd FileType ruby nmap <buffer> <F5> <Plug>(xmpfilter-run)
 autocmd FileType ruby xmap <buffer> <F5> <Plug>(xmpfilter-run)
 autocmd FileType ruby imap <buffer> <F5> <Plug>(xmpfilter-run)
+
+" rb
+map <Leader>t :w\|!rspec -c spec<cr>
+map <Leader>r :w\|!rackup<cr>

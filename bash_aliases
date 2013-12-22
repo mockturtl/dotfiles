@@ -60,6 +60,7 @@ alias ivy="java -jar $IVY"
 # rb
 alias rbenv-sh='eval "$(rbenv init -)"'
 alias be="bundle exec"
+alias rs="rspec -c"
 
 # net
 alias ports='netstat -tulanp' #  --all --numeric --programs --inet --inet5'
