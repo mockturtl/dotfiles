@@ -38,6 +38,10 @@ nnoremap <leader>p :set invpaste paste?<CR>
 
 nnoremap <leader>a :AutoCloseToggle<CR>
 
+" whitespace
+nmap <leader>l :set list!<CR>
+set listchars=tab:▸\ ,eol:¬
+
 " xmpfilter
 autocmd FileType ruby nmap <buffer> <F4> <Plug>(xmpfilter-mark)
 autocmd FileType ruby xmap <buffer> <F4> <Plug>(xmpfilter-mark)
