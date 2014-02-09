@@ -16,6 +16,7 @@
 	fv = fetch --verbose
 	cp = cherry-pick
 	sh = show --abbrev-commit
+	g = grep -ihI
 [color]
 	ui = true
 [rebase]
@@ -27,3 +28,6 @@
 	default = simple
 [merge]
 	conflictstyle = diff3
+[grep]
+	lineNumber = true
+	extendedRegexp = true
