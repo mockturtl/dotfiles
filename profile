@@ -48,7 +48,7 @@ DART_HOME="/opt/dart/dart-sdk"
 DART="$DART_HOME/bin"
 
 # go
-export GOPATH="$HOME/Projects/go"
+export GOPATH="$HOME/proj/go"
 GO="$GOPATH/bin"
 
 # py
