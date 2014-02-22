@@ -27,8 +27,8 @@ export GIT_PS1_SHOWDIRTYSTATE="1"
 export GIT_PS1_SHOWUPSTREAM="verbose"
 
 # java / mvn / ivy
-export JAVA_HOME="/usr/lib/jvm/j2sdk1.7-oracle/"
-#export JAVA_HOME="/usr/lib/jvm/java-1.7.0-openjdk-"$(dpkg --print-architecture)
+#export JAVA_HOME="/usr/lib/jvm/j2sdk1.7-oracle/"
+export JAVA_HOME="/usr/lib/jvm/java-1.7.0-openjdk-"$(dpkg --print-architecture)
 export M2_HOME="/usr/share/maven"
 export M2="$M2_HOME/bin"
 export MAVEN_OPTS="-Xms256m -Xmx512m"
@@ -40,7 +40,7 @@ FLEX_HOME="$HOME/flex_sdk_$FLEX_VERSION"
 export FLEX_PATH="$FLEX_HOME/bin"
 
 # android
-ANDROID_HOME="$HOME/android-sdk-linux"
+export ANDROID_HOME="$HOME/android-studio/sdk"
 ANDROID="$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools"
 
 # dart
