@@ -16,7 +16,7 @@
 	fv = fetch --verbose
 	cp = cherry-pick
 	sh = show --abbrev-commit
-	g = grep -ihI
+	g = grep -iI --heading --break
 [color]
 	ui = true
 [rebase]
@@ -31,3 +31,7 @@
 [grep]
 	lineNumber = true
 	extendedRegexp = true
+[color "grep"]
+	filename = magenta
+	linenumber = green
+	match = black yellow bold
