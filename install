@@ -1,6 +1,6 @@
 #!/bin/sh
 
-DOTFILES="ackrc bash_aliases bashrc gitconfig gitignore_global inputrc profile tmux.conf vimrc"
+DOTFILES="ackrc bash_aliases bashrc gemrc gitconfig gitignore_global inputrc profile tmux.conf vimrc"
 DOTDIRS="vim"
 FILES="git-completion.bash git-prompt.sh"
 
