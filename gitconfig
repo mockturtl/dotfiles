@@ -17,6 +17,7 @@
 	cp = cherry-pick
 	sh = show --abbrev-commit
 	g = grep -iI --heading --break
+	rpo = remote prune origin
 [color]
 	ui = true
 [rebase]
