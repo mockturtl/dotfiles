@@ -22,12 +22,12 @@
 [submodule "vim/bundle/dart-vim-plugin"]
 	path = vim/bundle/dart-vim-plugin
 	url = https://github.com/dart-lang/dart-vim-plugin.git
-[submodule "vim/bundle/vim-golang"]
-	path = vim/bundle/vim-golang
-	url = git://github.com/jnwhiteh/vim-golang.git
 [submodule "vim/bundle/numbers"]
 	path = vim/bundle/numbers
 	url = https://github.com/myusuf3/numbers.vim.git
 [submodule "vim/bundle/vim-ruby-xmpfilter"]
 	path = vim/bundle/vim-ruby-xmpfilter
 	url = https://github.com/t9md/vim-ruby-xmpfilter
+[submodule "vim/bundle/vim-go"]
+	path = vim/bundle/vim-go
+	url = http://github.com/fatih/vim-go
