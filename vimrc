@@ -54,3 +54,14 @@ autocmd FileType ruby imap <buffer> <F5> <Plug>(xmpfilter-run)
 " rb
 map <Leader>t :w\|!rspec -c spec<cr>
 map <Leader>r :w\|!rackup<cr>
+
+" go
+" https://github.com/fatih/vim-go#mappings
+" see also `:he go-mappings`
+au FileType go nmap <Leader>i <Plug>(go-info)
+au FileType go nmap <Leader>gd <Plug>(go-doc)
+au FileType go nmap <Leader>gv <Plug>(go-doc-vertical)
+au FileType go nmap <Leader>gb <Plug>(go-doc-browser)
+au FileType go nmap <Leader>r <Plug>(go-run)
+au FileType go nmap <Leader>b <Plug>(go-build)
+au FileType go nmap <Leader>t <Plug>(go-test)
