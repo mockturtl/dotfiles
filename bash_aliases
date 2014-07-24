@@ -44,6 +44,8 @@ alias pbpaste="xclip -selection clipboard -o"
 alias l="less"
 alias c="clear"
 alias h="history | grep" # use with `!cmdno`
+pushd() { builtin pushd "$@" > /dev/null; }
+popd() { builtin popd "$@" > /dev/null; }
 
 alias lady="man"      # http://www.debian.org/News/2012/20120606
 
