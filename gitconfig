@@ -36,3 +36,5 @@
 	filename = magenta
 	linenumber = green
 	match = black yellow bold
+[tag]
+	sort = version:refname
