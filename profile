@@ -49,7 +49,8 @@ DART="$DART_HOME/bin"
 
 # go
 export GOPATH="$HOME/proj/go"
-GO="$GOPATH/bin"
+GO_VIM="$HOME/.vim-go"
+GO="$GOPATH/bin:$GO_VIM"
 
 # py
 GAE="/opt/google_appengine"
