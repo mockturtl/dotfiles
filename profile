@@ -46,6 +46,7 @@ ANDROID="$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools"
 # dart
 DART_HOME="/opt/dart/dart-sdk"
 DART="$DART_HOME/bin"
+PUB="$HOME/.pub-cache/bin"
 
 # go
 export GOPATH="$HOME/proj/go"
@@ -71,4 +72,4 @@ export LESSOPEN="| /usr/share/source-highlight/src-hilite-lesspipe.sh %s"
 export LESS=' -R '
 
 # path
-export PATH=$NPM:$GAE:$DART:$ANDROID:$RBENV:$HEROKU:$JAVA_HOME:$M2:$FLEX_PATH:$GO:$PATH
+export PATH=$NPM:$GAE:$PUB:$DART:$ANDROID:$RBENV:$HEROKU:$JAVA_HOME:$M2:$FLEX_PATH:$GO:$PATH
