@@ -55,6 +55,8 @@ GO="$GOPATH/bin:$GO_VIM"
 
 # py
 GAE="/opt/google_appengine"
+export GCLOUD_SDK="/opt/google-cloud-sdk"
+GCLOUD="$GCLOUD_SDK/bin"
 
 # js
 if [ -d "$HOME/node_modules" ] ; then
@@ -72,4 +74,4 @@ export LESSOPEN="| /usr/share/source-highlight/src-hilite-lesspipe.sh %s"
 export LESS=' -R '
 
 # path
-export PATH=$NPM:$GAE:$PUB:$DART:$ANDROID:$RBENV:$HEROKU:$JAVA_HOME:$M2:$FLEX_PATH:$GO:$PATH
+export PATH=$NPM:$GAE:$GCLOUD:$PUB:$DART:$ANDROID:$RBENV:$HEROKU:$JAVA_HOME:$M2:$FLEX_PATH:$GO:$PATH

@@ -84,6 +84,10 @@ elif type compctl &>/dev/null; then
 fi
 ###-end-bower-completion-###
 
+# google-cloud-sdk
+[[ -s "$GCLOUD_SDK/completion.bash.inc" ]] && \
+. "$GCLOUD_SDK/completion.bash.inc"
+
 # cygwin
 #SSHAGENT=/usr/bin/ssh-agent
 #SSHAGENTARGS="-s"
