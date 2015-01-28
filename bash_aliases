@@ -64,6 +64,9 @@ alias rbenv-sh='eval "$(rbenv init -)"'
 alias be="bundle exec"
 alias rs="rspec -c"
 
+# dart
+alias pga="pub global activate"
+
 # net
 alias ports='netstat -tulanp' #  --all --numeric --programs --inet --inet5'
 alias ping='ping -c 5'
