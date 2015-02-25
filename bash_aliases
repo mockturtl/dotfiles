@@ -33,6 +33,7 @@ alias .........="........; .."
 alias ..........=".........; .."
 alias diff="colordiff -u"
 alias grep='grep -n --colour=auto'
+alias agc="ag -C"
 alias ls="ls -hF --color=auto"
 alias lr="ls -R"      # recursive
 alias ll="ls -l"
