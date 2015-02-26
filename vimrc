@@ -65,3 +65,7 @@ au FileType go nmap <Leader>gb <Plug>(go-doc-browser)
 au FileType go nmap <Leader>r <Plug>(go-run)
 au FileType go nmap <Leader>b <Plug>(go-build)
 au FileType go nmap <Leader>t <Plug>(go-test)
+
+" md
+" https://github.com/tpope/vim-markdown/blob/master/README.markdown
+autocmd BufNewFile,BufReadPost *.md set filetype=markdown
