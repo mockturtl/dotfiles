@@ -46,3 +46,12 @@
 [submodule "vim/bundle/ag"]
 	path = vim/bundle/ag
 	url = https://github.com/rking/ag.vim
+[submodule "vim/bundle/paredit.vim"]
+	path = vim/bundle/paredit.vim
+	url = https://github.com/vim-scripts/paredit.vim
+[submodule "vim/bundle/vim-niji"]
+	path = vim/bundle/vim-niji
+	url = https://github.com/vim-scripts/vim-niji
+[submodule "vim/bundle/tslime.vim"]
+	path = vim/bundle/tslime.vim
+	url = https://github.com/sjl/tslime.vim

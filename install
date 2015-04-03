@@ -1,6 +1,6 @@
 #!/bin/sh
 
-DOTFILES="ackrc bash_aliases bashrc gemrc gitconfig gitignore_global inputrc profile tmux.conf vimrc"
+DOTFILES="ackrc bash_aliases bashrc gemrc gitconfig gitignore_global inputrc lispwords profile tmux.conf vimrc"
 DOTDIRS="vim boot2docker"
 FILES="git-completion.bash git-prompt.sh"
 
