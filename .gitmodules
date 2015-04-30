@@ -42,7 +42,7 @@
 	url = git://github.com/tpope/vim-endwise.git
 [submodule "vim/bundle/toml"]
 	path = vim/bundle/toml
-	url = git@github.com:cespare/vim-toml.git
+	url = git://github.com/cespare/vim-toml.git
 [submodule "vim/bundle/ag"]
 	path = vim/bundle/ag
 	url = https://github.com/rking/ag.vim
