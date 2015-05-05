@@ -44,7 +44,7 @@ export ANDROID_HOME="$HOME/android-sdk"
 ANDROID="$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools"
 
 # dart
-DART_HOME="/opt/dart/dart-sdk"
+DART_HOME="/usr/lib/dart"
 DART="$DART_HOME/bin"
 PUB="$HOME/.pub-cache/bin"
 
