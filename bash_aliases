@@ -73,6 +73,7 @@ alias rs="rspec -c"
 
 # dart
 alias pga="pub global activate"
+alias pgr="pub global run"
 
 # net
 alias ports='netstat -tulanp' #  --all --numeric --programs --inet --inet5'
