@@ -18,6 +18,7 @@
 	sh = show --abbrev-commit
 	g = grep -iI --heading --break
 	rpo = remote prune origin
+	pr = "!f() { git fv origin refs/pull/$1/head:pr-$1; } ; f"
 [color]
 	ui = true
 [rebase]
