@@ -1,7 +1,7 @@
 #!/bin/sh
 
 DOTFILES="ackrc bash_aliases bashrc gemrc gitconfig gitignore_global inputrc lispwords profile tmux.conf vimrc"
-DOTDIRS="vim boot2docker"
+DOTDIRS="vim boot2docker gradle"
 FILES="git-completion.bash git-prompt.sh"
 
 do_install() {
