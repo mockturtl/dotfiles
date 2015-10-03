@@ -41,7 +41,8 @@ export FLEX_PATH="$FLEX_HOME/bin"
 
 # android
 export ANDROID_HOME="$HOME/android-sdk"
-ANDROID="$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools"
+ANDROID_NDK="$HOME/android-ndk"
+ANDROID="$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools:$ANDROID_NDK"
 
 # dart
 DART_HOME="/usr/lib/dart"
