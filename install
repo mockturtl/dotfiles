@@ -3,6 +3,7 @@
 DOTFILES="ackrc bash_aliases bashrc gemrc gitconfig gitignore_global inputrc lispwords profile tmux.conf vimrc"
 DOTDIRS="vim boot2docker gradle"
 FILES="git-completion.bash git-prompt.sh"
+BINFILES="diff-highlight"
 
 do_install() {
   cat << EOF
@@ -23,6 +24,12 @@ EOF
   for FILE in ${FILES}; do
     TARGET="${HOME}/${FILE}"
     cp -f ${FILE} ${TARGET}
+  done
+
+  for BINFILE in ${BINFILES}; do
+    TARGET="${HOME}/bin/${BINFILE}"
+    cp -f ${BINFILE} ${TARGET}
+    chmod +x ${TARGET}
   done
 
   cat << EOF

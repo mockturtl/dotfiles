@@ -11,7 +11,7 @@
 	ri = rebase --interactive
 	av = add --verbose
 	ap = add --patch
-	di = diff
+	di = diff --color
 	ds = diff --staged
 	fv = fetch --verbose
 	cp = cherry-pick
@@ -19,8 +19,6 @@
 	g = grep -iI --heading --break
 	rpo = remote prune origin
 	pr = "!f() { git fv origin refs/pull/$1/head:pr-$1; } ; f"
-[color]
-	ui = true
 [rebase]
 	autosquash = true
 [core]
@@ -33,9 +31,25 @@
 [grep]
 	lineNumber = true
 	extendedRegexp = true
+[tag]
+	sort = version:refname
+[pager]
+	log = diff-highlight | less
+	show = diff-highlight | less
+	diff = diff-highlight | less
+[color "diff-highlight"]
+	oldNormal = red bold
+	oldHighlight = red bold 52
+	newNormal = green bold
+	newHighlight = green bold 22
+[color "diff"]
+	meta = yellow bold
+	commit = green bold
+	frag = magenta bold
+	old = red bold
+	new = green bold
+	whitespace = red reverse
 [color "grep"]
 	filename = magenta
 	linenumber = green
 	match = black yellow bold
-[tag]
-	sort = version:refname
