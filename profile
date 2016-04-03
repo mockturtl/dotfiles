@@ -56,7 +56,7 @@ GO="$GOPATH/bin:$GO_VIM"
 
 # py
 GAE="/opt/google_appengine"
-export GCLOUD_SDK="/opt/google-cloud-sdk"
+export GCLOUD_SDK="${HOME}/google-cloud-sdk"
 GCLOUD="$GCLOUD_SDK/bin"
 
 # js
