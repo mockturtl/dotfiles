@@ -88,6 +88,10 @@ fi
 [[ -s "$GCLOUD_SDK/completion.bash.inc" ]] && \
 . "$GCLOUD_SDK/completion.bash.inc"
 
+# amazon web services
+[[ -s "$(which aws_completer)" ]] && \
+  complete -C aws_completer aws
+
 # cygwin
 #SSHAGENT=/usr/bin/ssh-agent
 #SSHAGENTARGS="-s"
