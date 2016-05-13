@@ -31,9 +31,6 @@
 [submodule "vim/bundle/vim-go"]
 	path = vim/bundle/vim-go
 	url = http://github.com/fatih/vim-go
-[submodule "vim/bundle/ultisnips"]
-	path = vim/bundle/ultisnips
-	url = http://github.com/SirVer/ultisnips
 [submodule "vim/bundle/vim-ruby"]
 	path = vim/bundle/vim-ruby
 	url = git://github.com/vim-ruby/vim-ruby.git
@@ -55,3 +52,6 @@
 [submodule "vim/bundle/tslime.vim"]
 	path = vim/bundle/tslime.vim
 	url = https://github.com/sjl/tslime.vim
+[submodule "vim/bundle/ultisnips"]
+	path = vim/bundle/ultisnips
+	url = git@github.com:SirVer/ultisnips.git
