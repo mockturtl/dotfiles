@@ -33,13 +33,13 @@
 	url = http://github.com/fatih/vim-go
 [submodule "vim/bundle/vim-ruby"]
 	path = vim/bundle/vim-ruby
-	url = git://github.com/vim-ruby/vim-ruby.git
+	url = https://github.com/vim-ruby/vim-ruby.git
 [submodule "vim/bundle/vim-endwise"]
 	path = vim/bundle/vim-endwise
-	url = git://github.com/tpope/vim-endwise.git
+	url = https://github.com/tpope/vim-endwise.git
 [submodule "vim/bundle/toml"]
 	path = vim/bundle/toml
-	url = git://github.com/cespare/vim-toml.git
+	url = https://github.com/cespare/vim-toml.git
 [submodule "vim/bundle/ag"]
 	path = vim/bundle/ag
 	url = https://github.com/rking/ag.vim
@@ -54,4 +54,4 @@
 	url = https://github.com/sjl/tslime.vim
 [submodule "vim/bundle/ultisnips"]
 	path = vim/bundle/ultisnips
-	url = git@github.com:SirVer/ultisnips.git
+	url = https://github.com/SirVer/ultisnips.git
