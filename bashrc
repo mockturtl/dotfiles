@@ -92,6 +92,11 @@ fi
 [[ -s "$(which aws_completer)" ]] && \
   complete -C aws_completer aws
 
+if hash ag 2>/dev/null; then
+  tag() { command tag "$@"; source ${TAG_ALIAS_FILE:-/tmp/tag_aliases} 2>/dev/null; }
+  #alias ag=tag
+fi
+
 # cygwin
 #SSHAGENT=/usr/bin/ssh-agent
 #SSHAGENTARGS="-s"
