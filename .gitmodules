@@ -55,3 +55,6 @@
 [submodule "vim/bundle/ultisnips"]
 	path = vim/bundle/ultisnips
 	url = https://github.com/SirVer/ultisnips.git
+[submodule "vim/bundle/splitjoin.vim"]
+	path = vim/bundle/splitjoin.vim
+	url = https://github.com/AndrewRadev/splitjoin.vim
