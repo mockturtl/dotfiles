@@ -32,12 +32,6 @@ export JAVA_HOME="/usr/lib/jvm/java-1.8.0-openjdk-"$(dpkg --print-architecture)
 export M2_HOME="/usr/share/maven"
 export M2="$M2_HOME/bin"
 export MAVEN_OPTS="-Xms256m -Xmx512m"
-#export IVY="/usr/share/java/ivy.jar"
-
-# as3
-FLEX_VERSION="4.6-AIR_3.2"
-FLEX_HOME="$HOME/flex_sdk_$FLEX_VERSION"
-export FLEX_PATH="$FLEX_HOME/bin"
 
 # android
 export ANDROID_HOME="$HOME/android-sdk"
@@ -53,11 +47,6 @@ PUB="$HOME/.pub-cache/bin"
 export GOPATH="$HOME/proj/go"
 GO_VIM="$HOME/.vim-go"
 GO="$GOPATH/bin:$GO_VIM"
-
-# py
-GAE="/opt/google_appengine"
-export GCLOUD_SDK="${HOME}/google-cloud-sdk"
-GCLOUD="$GCLOUD_SDK/bin"
 
 # js
 if [ -d "$HOME/node_modules" ] ; then
@@ -75,4 +64,4 @@ export LESSOPEN="| /usr/share/source-highlight/src-hilite-lesspipe.sh %s"
 export LESS=' -R '
 
 # path
-export PATH=$NPM:$GAE:$GCLOUD:$PUB:$DART:$ANDROID:$RBENV:$HEROKU:$JAVA_HOME:$M2:$FLEX_PATH:$GO:$PATH
+export PATH=$NPM:$PUB:$DART:$ANDROID:$RBENV:$HEROKU:$JAVA_HOME:$M2:$GO:$PATH
