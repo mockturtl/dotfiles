@@ -32,6 +32,8 @@ export JAVA_HOME="/usr/lib/jvm/java-1.8.0-openjdk-"$(dpkg --print-architecture)
 export M2_HOME="/usr/share/maven"
 export M2="$M2_HOME/bin"
 export MAVEN_OPTS="-Xms256m -Xmx512m"
+KOTLIN_HOME="/opt/kotlinc"
+KOTLIN="$KOTLIN_HOME/bin"
 
 # android
 export ANDROID_HOME="$HOME/android-sdk"
@@ -65,4 +67,4 @@ export LESSOPEN="| /usr/share/source-highlight/src-hilite-lesspipe.sh %s"
 export LESS=' -R '
 
 # path
-export PATH=$NPM:$FLUTTER:$PUB:$DART:$ANDROID:$RBENV:$HEROKU:$JAVA_HOME:$M2:$GO:$PATH
+export PATH=$NPM:$FLUTTER:$PUB:$DART:$KOTLIN:$ANDROID:$RBENV:$HEROKU:$JAVA_HOME:$M2:$GO:$PATH
