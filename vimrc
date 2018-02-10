@@ -102,7 +102,8 @@ let g:go_highlight_extra_types = 1
 let g:go_highlight_build_constraints = 1
 let g:go_highlight_generate_tags = 1
 let g:go_auto_type_info = 1
-"let g:go_auto_sameids = 1 " pending vim 7.4.1304 D:
+"let g:go_auto_sameids = 1   " pending vim 7.4.1304 D:
+let g:go_version_warning = 0 " pending vim 7.4.1689 D:
 
 " md
 " https://github.com/tpope/vim-markdown/blob/master/README.markdown
