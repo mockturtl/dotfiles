@@ -36,9 +36,9 @@ KOTLIN_HOME="/opt/kotlinc"
 KOTLIN="$KOTLIN_HOME/bin"
 
 # android
-export ANDROID_HOME="$HOME/android-sdk"
+export ANDROID_SDK_ROOT="$HOME/android-sdk"
 export ANDROID_NDK_HOME="$HOME/android-ndk"
-ANDROID="$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools:$ANDROID_NDK_HOME"
+ANDROID="$ANDROID_SDK_ROOT/emulator:$ANDROID_SDK_ROOT/tools:$ANDROID_SDK_ROOT/platform-tools:$ANDROID_NDK_HOME"
 
 # dart
 DART_HOME="/usr/lib/dart"
