@@ -1,5 +1,5 @@
 # APT
-alias update="sudo -b aptitude update -q2"
+alias update="sudo -b apt update -q2"
 alias clean="sudo apt-get clean && sudo apt-get autoremove"
 alias safe-upgrade="sudo aptitude safe-upgrade"
 alias full-upgrade="sudo aptitude full-upgrade"
