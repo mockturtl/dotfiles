@@ -60,3 +60,8 @@ export LESS=' -R '
 
 # path
 export PATH=$NPM:$FLUTTER:$PUB:$DART:$KOTLIN:$ANDROID:$RBENV:$HEROKU:$JAVA_HOME:$M2:$GO:$PATH
+# fix vlc 3.0.3
+# https://forums.fedoraforum.org/showthread.php?311656-Problems-with-VLC-video-playback-and-interface-size&p=1776175#post1776175
+# https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=899108#10
+export QT_AUTO_SCREEN_SCALE_FACTOR=0
+#export QT_SCALE_FACTOR=1
