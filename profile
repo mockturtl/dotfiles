@@ -58,8 +58,11 @@ HEROKU="/usr/local/heroku/bin"
 export LESSOPEN="| /usr/share/source-highlight/src-hilite-lesspipe.sh %s"
 export LESS=' -R '
 
+#rs
+RUST="$HOME/.cargo/bin"
+
 # path
-export PATH=$FLUTTER:$PUB:$DART:$KOTLIN:$ANDROID:$RBENV:$HEROKU:$JAVA_HOME:$M2:$GO:$PATH
+export PATH=$RUST:$FLUTTER:$PUB:$DART:$KOTLIN:$ANDROID:$RBENV:$HEROKU:$JAVA_HOME:$M2:$GO:$PATH
 # fix vlc 3.0.3
 # https://forums.fedoraforum.org/showthread.php?311656-Problems-with-VLC-video-playback-and-interface-size&p=1776175#post1776175
 # https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=899108#10
