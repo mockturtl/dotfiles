@@ -75,6 +75,9 @@ alias rs="rspec -c"
 alias pga="pub global activate"
 alias pgr="pub global run"
 
+# sh
+alias jql="jq '.|length'"
+
 # net
 alias ports='netstat -tulanp' #  --all --numeric --programs --inet --inet5'
 alias ping='ping -c 5'
