@@ -6,5 +6,5 @@
 .DS_Store
 
 # intellij
-*.iml
-.idea/
+#*.iml
+#.idea/
