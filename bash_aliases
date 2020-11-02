@@ -72,8 +72,9 @@ alias be="bundle exec"
 alias rs="rspec -c"
 
 # dart
-alias pga="pub global activate"
-alias pgr="pub global run"
+alias pga="dart pub global activate"
+alias pgr="dart pub global run"
+alias dpa="dart pub add"
 
 # sh
 alias jql="jq '.|length'"
