@@ -10,6 +10,9 @@ filetype plugin indent on
 set number
 set ruler
 set hlsearch
+set ignorecase
+set incsearch
+set noswapfile
 set wildmenu
 set wildmode=list:longest,full
 set showbreak=↪
