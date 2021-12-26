@@ -13,6 +13,9 @@ if [ -d "$HOME/bin" ] ; then
     PATH="$HOME/bin:$PATH"
 fi
 
+if [ -d "$HOME/.local/bin" ] ; then
+    PATH="$HOME/.local/bin:$PATH"
+fi
 # bash prompt
 #export PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[01;34m\] \w \[\033[01;35m\]$(__git_ps1 "(%s) ")\[\033[01;34m\]\$\[\033[00m\] '
 export GIT_PS1_SHOWDIRTYSTATE="1"
