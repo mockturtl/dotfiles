@@ -8,6 +8,9 @@ case $- in
       *) return;;
 esac
 
+source ~/git-prompt.sh
+source ~/git-completion.bash
+
 # don't put duplicate lines or lines starting with space in the history.
 # See bash(1) for more options
 HISTCONTROL=ignoreboth
@@ -116,3 +119,7 @@ fi
 if [ -f ~/.profile ]; then
     . ~/.profile
 fi
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
