@@ -42,6 +42,7 @@ DART="$DART_HOME/bin"
 PUB="$HOME/.pub-cache/bin"
 PUB2="$HOME/.local/state/Dart/install/bin"
 FLUTTER="$HOME/proj/flutter/flutter/bin"
+export FLUTTER_ROOT="$FLUTTER"
 
 # go
 export GOPATH="$HOME/proj/go"
