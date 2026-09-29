@@ -76,6 +76,7 @@ alias dpa="dart pub add"
 
 # sh
 alias jql="jq '.|length'"
+alias rg="rg -S"
 
 # net
 alias ports='netstat -tulanp' #  --all --numeric --programs --inet --inet5'
